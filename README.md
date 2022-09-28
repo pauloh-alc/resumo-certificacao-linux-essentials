@@ -6,8 +6,8 @@ Fiz esse resumo 2 dias antes de fazer minha prova para a certificação Linux Es
 
 _"The Linux Essentials certificate is a great way to show employers that you have the foundational skills required for your next job or promotion. It also serves as an ideal stepping stone to the more advanced LPIC Professional Certification track for Linux Systems Administrators."_
 
-1.Página principal da certificação: [link](https://www.lpi.org/our-certifications/linux-essentials-overview)
-2.Tópicos que caem na prova da certificação: [link](https://www.lpi.org/our-certifications/exam-010-objectives)
+- 1.Página principal da certificação: [link](https://www.lpi.org/our-certifications/linux-essentials-overview)
+- 2.Tópicos que caem na prova da certificação: [link](https://www.lpi.org/our-certifications/exam-010-objectives)
 
 ## Resumo:
 
@@ -80,51 +80,51 @@ _"The Linux Essentials certificate is a great way to show employers that you hav
     | _ _ _ /lib   -> bibliotecas essencias do sistema e módulos do kernel
 
 23. Interfaces gráficas: GUI 
- 1.KDE   - Inteface bonita, focada no usuário (tenta focar no usuário e desempenho)  
- 2.LXDE  - Leve; focada em desempenho, não em agradar usuário. 
- 3.UNIT  - Interface bonita, focada no usuário (descontinuada; utilizada no ubuntu).
- 4.XFCE  - Interface relativamente bonita; Leve; focada em desempenho, não em agradar o usuário.
- 5.GNOME - Interface bonita, focada no usuário (utilizada no ubuntu).
+ - 1.KDE   - Inteface bonita, focada no usuário (tenta focar no usuário e desempenho)  
+ - 2.LXDE  - Leve; focada em desempenho, não em agradar usuário. 
+ - 3.UNIT  - Interface bonita, focada no usuário (descontinuada; utilizada no ubuntu).
+ - 4.XFCE  - Interface relativamente bonita; Leve; focada em desempenho, não em agradar o usuário.
+ - 5.GNOME - Interface bonita, focada no usuário (utilizada no ubuntu).
 
 24. Aplicações Open Source
- 1.Open-Office - Suite de texto
- 2.Thunderbird - Cliente de e-mail
- 3.Firefox
- 4.Libre-Office - Suite de texto:
+- 1.Open-Office - Suite de texto
+ - 2.Thunderbird - Cliente de e-mail
+ - 3.Firefox
+ - 4.Libre-Office - Suite de texto:
     - Calc --> planilhas
     - Draw --> desenhos vetorizados
     - Impress --> apresentação
     - Math ---> fórmulas matemáticas
     - Writer --> Editor de texto 
     
-     5.Gimp - edição de imagens
-     6.Blender - design 3D e animações
-     7.Multimídea: Amarok, Audacious, Banshee
-     8.links - browser no terminal
+ - 5.Gimp - edição de imagens
+ - 6.Blender - design 3D e animações
+ - 7.Multimídea: Amarok, Audacious, Banshee
+ - 8.links - browser no terminal
 
 25. Aplicações para Servidores Open-Source
- 1.Apache - 80 | Nginx - 443
- 2.MariaDB | Mysql - 3306
- 3.NSF - 2049
- 4.Sampa - 139/445
- 5.SSH - 22
- 6.DNS - 53
- 7.Telnet - 23
- 8.SMTP - 25
- 9.CUPS - 634
- 10.OWNCLOUD
- 11.NextCloud
+ - 1.Apache - 80 | Nginx - 443
+ - 2.MariaDB | Mysql - 3306
+ - 3.NSF - 2049
+ - 4.Sampa - 139/445
+ - 5.SSH - 22
+ - 6.DNS - 53
+ - 7.Telnet - 23
+ - 8.SMTP - 25
+ - 9.CUPS - 634
+ - 10.OWNCLOUD
+ - 11.NextCloud
 
 26. Método de desenvolvimento:
- 1.Cathedral - código fonte está disponível para cada release do software, mas o código desenvolvido entre dois releases é restrito a um grupo de dev.
- 2.Bazaar    - código é desenvolvido de forma totalmente aberta e pública, utilizando a internet (Linus Torvalds é o inventor desse modelo de desenvolvimento)     
+ - 1.Cathedral - código fonte está disponível para cada release do software, mas o código desenvolvido entre dois releases é restrito a um grupo de dev.
+ - 2.Bazaar    - código é desenvolvido de forma totalmente aberta e pública, utilizando a internet (Linus Torvalds é o inventor desse modelo de desenvolvimento)     
 
 27. Linguagens Compiladas e Interpretadas
- 1.Linguagens Compiladas - c, go, haskel 
- 2.Linguagens Interpretadas - python, php, shell-script
+- 1.Linguagens Compiladas - c, go, haskel 
+- 2.Linguagens Interpretadas - python, php, shell-script
 
 28. Gerenciamento de pacotes .deb:
-  1.Distros baseadas no debian:
+ - 1.Distros baseadas no debian:
   - apt (alto nível)   -> instala os pacotes por meio de repositórios oficiais (instala dependências)
   - dpkg (baixo nível) -> tenho que baixar o pacote .deb localmente e realizo a instalação (não instala as dependências e a instação é local)
 
@@ -145,10 +145,10 @@ Obs: Remove somente o programa
 apt remove --purge <nome-do-pacote> 
 ```
 Obs: 
-- remove
-    1. remove o programa em si.
+- remove 
+-- 1.remove o programa em si.
 - \- -purge
-   2. remove os arquivos de configurações.
+-- 2. remove os arquivos de configurações.
 3. Remoção:
 ```sh
 apt autoremove
@@ -310,10 +310,12 @@ rpm -qR <programa>
 41. Para informações básicas do sistema, utilize: uname; uname --help para conhecer as outras flags (uname -r, para a versão do kernel e uname -m, para arquitetura do sistema)
 42. Onde estou: $ pwd ou echo $PWD
 43. Um pouco sobre os diretórios:
-.  --> diretório atual
-    . .  --> direório pai
-    ~    --> diretório home
-    \-   --> diretório anterior
+```
+.    --> diretório atual
+. .  --> direório pai
+~    --> diretório home
+-    --> diretório anterior
+```
 
 44. Hitórico de comandos do bash: presente em .bash_history, comando history (mostra histórico do bash); olhando o manual do bash posso achar variáveis relacionadas ao file .bash_history
 45. Variáveis LOCAIS: somente tal sessão do bash pode acessar; Variáveis GLOBAIS: sessões filhas de tal bash podem acessar
@@ -322,15 +324,17 @@ rpm -qR <programa>
 48. $ NOME='Paulo'  --> variável local
 49. $ export NOME='Giovanna' --> variável global
 50. File Globbing - diz respeito a dígitos especiais que podemos utilizar no bash, que utilizamos para encontrar arquivos que tenham determinado padrão
-    \* --> tudo
-    ? --> 1 dígito somente (pode ser qualquer dígito)
-    [] --> lista de dígitos
+51. 
+```
+    \*  --> tudo
+    ?   --> 1 dígito somente (pode ser qualquer dígito)
+    []  --> lista de dígitos
     [^] --> nega os elementos da lista
-
-51. Quoting - (") shell consegue interpretar dígitos especiais; (') shell trata tudo que está dentro da aspas simples como um dígito; (\) diz para o shell que ele deve interpretar próximo caractere como dígito normal
-52. Dígito especial exemplo: $ cd diretorio\ paulo 
-53. Nome do host: $ hostname ou $ hostnamectl 
-54. Alterando o hostaname: $ sudo hostnamectl set-hostname <host-name>
+```
+52. Quoting - (") shell consegue interpretar dígitos especiais; (') shell trata tudo que está dentro da aspas simples como um dígito; (\) diz para o shell que ele deve interpretar próximo caractere como dígito normal
+53. Dígito especial exemplo: $ cd diretorio\ paulo 
+54. Nome do host: $ hostname ou $ hostnamectl 
+55. Alterando o hostaname: $ sudo hostnamectl set-hostname <host-name>
 55. \# --> superusuário
 56. $ --> usuário comum
 57. ls -l /home/paulo --> (ls é comando, -l é parâmetro e /home/paulo é o argumento)
