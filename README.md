@@ -14,7 +14,7 @@ _"The Linux Essentials certificate is a great way to show employers that you hav
 01. Linux = Kernel
 02. Open Source Initiative (OSI)
 03. Free Software Foundation (FSF)
-04. Open Source -> código de fonte aberto
+04. Open Source -> código fonte aberto
 05. Free software -> livre para o usuário (free != libre, free beer != free software)
 06. FOSS -> Free and Open Source Software = Sofware livre e de código aberto
 07. FLOSS -> free/libre Open Source Software = Libre += FOSS
